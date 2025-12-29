@@ -1,47 +1,57 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>glitchwitch.io</title>
     <meta name="description" content="GlitchWitch Security">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark">
+    <link rel="icon" href="https://www.glitchwitch.ca/favicon.ico" sizes="any">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="bg-neutral-900">
     <div class="bg-neutral-900 text-neutral-200 min-h-screen flex flex-col font-mono max-w-4xl mx-auto">
-      <header class="p-4">
-        <div class="text-3xl md:text-6xl py-2">GlitchWitch [.io] <span class="text-sm align-top inline">They/Them</span>
+      <header class="p-4 text-center">
+        <h1 class="text-3xl md:text-6xl py-2 font-bold tracking-tight">
+          GlitchWitch <span class="text-pink-400">[.io]</span>
+          <span class="text-base align-top inline ml-2">They/Them</span>
+        </h1>
+        <div class="text-lg pb-2 italic">
+          Jade Null <span class="hidden sm:inline">=</span> <span class="font-semibold">Non-Binary • Queer • Hacker</span>
         </div>
-        <div class="text-lg pb-4">Jade Null = Non-Binary | Queer | Hacker</div>
-
       </header>
-      <nav class="bg-neutral-800 p-4 text-sm md:text-base grid-cols-1 md:grid md:grid-cols-2 lg:grid-cols-4">
-        <div class="mx-auto">
-          <a href="https://glitchwitch.ca/" class="underline hover:font-extrabold border-x-6 border-pink-200 px-1.5">
-          About (.ca)</a>
-        </div>
-        <div class="mx-auto">
-          <a href="https://glitchwitch.io/" class="underline font-extrabold border-x-6 border-pink-200 px-1.5">
-          Hacking (.io)</a>
-        </div>
-        <div class="mx-auto">
-          <a href="https://glitchwitch.fm/" class="underline hover:font-extrabold border-x-6 border-pink-200 px-1.5">
-          Music & Flow (.fm)</a>
-        </div>
-        <div class="mx-auto">
-          <a href="https://glitchwitch.tv/" class="underline hover:font-extrabold border-x-6 border-pink-200 px-1.5">
-          Livestreams (.tv)</a>
-        </div>
+
+      <nav class="bg-neutral-800 p-4 text-base font-medium flex flex-wrap justify-center gap-4 rounded-xl shadow my-2">
+        <a href="https://glitchwitch.ca/"
+          class="underline hover:font-extrabold border-x-4 border-pink-400 px-2 transition-colors duration-200">About (.ca)</a>
+        <a href="https://glitchwitch.io/"
+          class="underline font-extrabold border-x-4 border-pink-400 px-2 transition-colors duration-200 ring-2 ring-pink-400/30 bg-neutral-900/40 rounded"
+          aria-current="page">Hacking (.io)</a>
+        <a href="https://glitchwitch.fm/"
+          class="underline hover:font-extrabold border-x-4 border-pink-400 px-2 transition-colors duration-200">Music & Flow (.fm)</a>
+        <a href="https://glitchwitch.tv/"
+          class="underline hover:font-extrabold border-x-4 border-pink-400 px-2 transition-colors duration-200">Livestreams (.tv)</a>
       </nav>
-      <main class="flex-grow p-4 max-w-xl mx-auto">
-        <h1 class="font-medium text-4xl border-b border-dotted mb-4 pt-8 pb-2">RIP GlitchWitch Security</h1>
-        <p class="py-2">
-          Since 2017, Jade has operated under the hacker handle of GlitchWitch across the internet. Under that pseudonym, GlitchWitch as an Information Security Researcher turned infosec company founder, has participated in a signfigant number of largely undisclosed vulnerability disclosure programs, a handful of public speaking appearences, and the occassional internet subcommunity.
-        </p>
-        <p class="py-2">
-          These days they're infosec carreer largely consists of working alongside a team of talented hackers, developers, and human beings at <a class="hover:underline text-pink-600" href="https://glitchsecure.com/updates/introducing-glitchsecure/?utm_source=glitchwitch.io">GlitchSecure</a>.
-        </p>
 
+      <main class="flex-grow p-6 max-w-2xl mx-auto">
+
+        <section class="mb-10">
+          <h2 class="font-semibold text-3xl border-b border-pink-900 border-dotted mb-4 pt-8 pb-2">
+            RIP GlitchWitch Security
+          </h2>
+          <p class="py-2 leading-relaxed">
+            Since 2017, Jade has gained global recgonition in the infosec community under the hacker handle GlitchWitch. As an information security researcher–turned–infosec company founder, they've contributed to a range of vulnerability disclosure programs (most undisclosed), left an imprint at the occasional conference, and across various internet subcommunities along the way.
+          </p>
+          <p class="py-2 leading-relaxed">
+            In 2022 they switched gears, moving away from their independent security research under the GlitchWitch Security branding to forming an employee owned cybersecurity company. To this day, their infosec journey continues as they build alongside a talented crew of hackers, developers, and wonderful human beings at
+            <a class="hover:underline text-pink-600" href="https://glitchsecure.com/updates/introducing-glitchsecure/?utm_source=glitchwitch.io" target="_blank" rel="noopener">GlitchSecure</a>.
+          </p>
+        </section>
+        
       </main>
+      <footer class="text-center py-4 text-neutral-500 text-xs">
+        19XX-20XX GlitchWitch.ca &middot; No Rights Reserved
+      </footer>
+    </div>
   </body>
-
 </html>
